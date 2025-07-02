@@ -10,9 +10,6 @@ __pycache__/
 db.sqlite3
 db.sqlite3-journal
 
-# Secret settings and environment files
-.env
-.env.*  # como .env.dev o .env.production
 
 # Media
 /media
@@ -77,7 +74,6 @@ pip-log.txt
 
 # Virtualenv
 venv/
-env/
 ENV/
 .venv/
 .venv.bak/
