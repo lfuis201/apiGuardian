@@ -28,5 +28,8 @@ urlpatterns = [
 
     # Rutas de autenticación
     path('api/auth/', include('api_guardian_auth.urls')),
+
+    path('', SpectacularSwaggerView.as_view(url_name='schema')),
+
 ]
 
