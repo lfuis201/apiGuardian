@@ -21,7 +21,6 @@ db.sqlite3-journal
 /static_root
 
 # VS Code and IDEs
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -91,3 +90,7 @@ gunicorn.pid
 *.tar
 *.db
 docker-compose.override.yml
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
